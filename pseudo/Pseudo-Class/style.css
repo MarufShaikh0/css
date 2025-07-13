@@ -3,6 +3,57 @@ body{
 
 }
 
+
+/*  Hover Section Start */
+.container{
+     height: 100%;
+     margin-inline: auto;
+}
+
+.btn-primary{
+     background-color: tan;
+     border: none;
+     padding: 10px;
+     border-radius: 5px;
+}
+.btn-primary:hover{
+     background-color: tomato;
+}
+
+main{
+     min-height: 100vh;
+}
+main section{
+    min-height: 100vh;
+}
+
+/*  Hover Section End */
+
+/* Focus Section Start */
+input:focus{
+     color: red;
+     padding: 10px;
+}
+
+/* Focus Section End */
+
+/* Visited Section Start */
+
+a:visited{
+     color: red;
+}
+
+/* Visited Section End */
+
+
+
+/* Footer Start */
+footer{
+     text-align: center;
+}
+/* Footer End */
+
+
 /*  Header Section Start */
 header{
      background-color: tomato;
@@ -61,20 +112,3 @@ ul li a{
 }
 
 /*  Header Section End */
-
-/*  Home Section Start */
-.container{
-     height: 100%;
-     margin-inline: auto;
-}
-
-
-/*  Home Section End */
-
-
-
-/* Footer Start */
-footer{
-     text-align: center;
-}
-/* Footer End */
