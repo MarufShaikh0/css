@@ -13,11 +13,87 @@ body{
 /*  Position Section End */
 
 
-/*  Relative Section Start */
+/*  Relative-Position Start */
+.box{
+     border: 1px solid plum; 
+}
 
-/*  Relative Section End */
+.boy{
+     position: relative;
+     left: 50px;
+}
+
+/*  Relative-Position End */
+
+/*  Absolute-Position Start */
+.boxx{
+     border: 1px solid plum; 
+}
+
+.ringg{
+     position: absolute;
+     left: 200px;
+}
+/*  Absolute-Position End */
+
+/* Sticky-Position Start */
+.dummy{
+     border: 1px solid red;
+          width: 300px;
+     height: 300px;
+}
+
+.boxs{
+     border: 1px solid black;
+     width: 300px;
+     height: 300px;
+}
+
+.rings{
+     position: sticky;
+     top: 0px;
+}
+
+.bo{
+     border: 2px solid blue;
+     height: 300px;
+     width: 250px;
+}
+
+/* Sticky-Position End */
 
 
+/* Fixed-Position Start */
+.fix{
+     border: 2px solid tomato;
+     height: 200px;
+}
+
+.ringf{
+     position: fixed;
+     left: 1300px;
+     top: 500px;
+
+}
+/* Fixed-Position End */
+
+/* Z-index Section Start */
+.z-box{
+     position: relative;
+}
+.z-ring{
+     top: -65px;
+     z-index: 5;
+}
+
+.z-boy{
+     z-index: 10;
+}
+.z-water{
+     top: -150px;
+}
+
+/* Z-index Section End */
 
 
 /* Common Style Start */
@@ -109,6 +185,7 @@ main{
 
 main section {
      min-height: 100vh;
+     padding-top: 100px;
 }
 
 /* Main & Section Css End  */
