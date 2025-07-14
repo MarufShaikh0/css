@@ -5,26 +5,62 @@ body{
 
 
 
-/*  Home Section Start */
+/*  Pseudo-Element Section Start */
 .container{
      height: 100%;
      margin-inline: auto;
 }
+/*  Pseudo-Element Section End */
 
 
-/*  Home Section End */
-
-
-
-/* Main & Section Css Start */
-main{
-     min-height: 100vh;
+/*  After Section Start */
+.after::after{
+     content: ".pdf";
+     color: tomato;
+     font-size: 13px;
+     padding: 0 5px;
 }
+/*  After Section End */
 
-main section{
-     min-height: 100vh;
+/*  Before Section Start */
+.before::before{
+     content: "before text";
+     font-size: 12px;
+     color: tomato;
+     padding: 5px;
 }
-/* Main & Section Css End */
+/*  Before Section End */
+
+
+/*  first-letterr Section Start */
+.first::first-letter{
+     font-size: 25px;
+     color: tomato;
+}
+/*  first-letter Section End */
+
+/*  first-line Section Start */
+.line::first-line{
+    color: tomato;
+}
+/*  first-line Section End */
+
+
+/*  Placeholder Section Start */
+.place::placeholder{
+     color: tomato;
+}
+/*  Placeholder Section End */
+
+
+
+
+
+
+
+
+/* Common Style Start */
+/* Common Style End */
 
 
 
@@ -33,6 +69,7 @@ footer{
      text-align: center;
 }
 /* Footer End */
+
 
 
 /*  Header Section Start */
@@ -54,15 +91,19 @@ header{
      padding: 10px;
      border-radius: 15px;
 }
+
 .header-title a{
      text-decoration: none;
      color: black;
+     
 }
+
 .header-title a:hover{
      text-decoration: underline;
      
      
 }
+
 .header-title:hover{
      background-color: rgb(243, 220, 220);
 }
@@ -80,6 +121,11 @@ ul li a{
      flex-wrap: wrap;
      gap: 10px;
 }
+
+.nav-left-container li{
+     padding: 10px; 
+     margin: 1px 1px;
+}
 .nav-left-container li a{
      color: black;
      font-size: 1.5rem; 
@@ -87,9 +133,24 @@ ul li a{
      padding: 10px;
      border-radius: 10px;
 }
+
 .nav-left-container li a:hover{
      background-color: rgb(221, 196, 161);
      text-decoration: underline;
 }
-
 /*  Header Section End */
+
+
+
+
+/* Main & Section Css Start  */
+main{
+     min-height: 100vh;
+}
+
+main section {
+     min-height: 100vh;
+     padding-top: 100px;
+}
+
+/* Main & Section Css End  */

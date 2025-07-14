@@ -20,13 +20,6 @@ body{
      background-color: tomato;
 }
 
-main{
-     min-height: 100vh;
-}
-main section{
-    min-height: 100vh;
-}
-
 /*  Hover Section End */
 
 /* Focus Section Start */
@@ -34,16 +27,77 @@ input:focus{
      color: red;
      padding: 10px;
 }
-
 /* Focus Section End */
 
 /* Visited Section Start */
-
 a:visited{
      color: red;
 }
-
 /* Visited Section End */
+
+
+/* Child Section Start */
+
+  /* First Chlid Css */
+.first li:first-child{
+     color: green;
+     border: 5px solid black;
+}
+
+  /* Last Chlid Css */
+.last li:last-child{
+     color: tomato;
+     background-color: black;
+}
+
+  /* 2n Css */
+.nn li:nth-child(2n){
+     background-color: red;
+}
+
+  /* 2n+1 Css */
+.nnn li:nth-child(2n+1){
+     background-color: tomato;
+     border: 2px solid black;
+}
+
+  /* 2n+1 Css */
+.nnn li:nth-child(2n+1){
+     background-color: tomato;
+     border: 2px solid black;
+}
+
+  /* 3n+1 Css */
+.nnnn li:nth-child(3n+1){
+     background-color: tomato;
+     border: 2px solid green;
+}
+/* Child Section End */
+
+
+
+
+/* Main & Section Css Start */
+main{
+     min-height: 100vh;
+}
+
+main section{
+     min-height: 100vh;
+     padding-top: 100px;
+}
+
+
+/* Main & Section Css End */
+
+
+
+
+
+
+
+
+
 
 
 

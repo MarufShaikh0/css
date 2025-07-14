@@ -39,10 +39,11 @@
             <div class="nav-right">
                 <ul class="nav-left-container">
                 <li><a href="http://127.0.0.1:5500/css/index.html">Css</a></li>
-                <li><a href="http://127.0.0.1:5500/hover/index.html">Pseudo-Class</a></li>
+                <li><a href="http://127.0.0.1:5500/pseudo/Pseudo-Class/index.html">Pseudo-Class</a></li>
                 <li><a href="#Hover">Hover</a></li>
                 <li><a href="#Focus">Focus</a></li>
                 <li><a href="#visited">visited</a></li>
+                <li><a href="#Child">Child</a></li>
                 
 
             </ul>
@@ -57,13 +58,40 @@
         <!-- Pseudo-Class Section Start -->
          <section class="container" id="Home">
               <div class="home-container">
-                 <h2>   : </h2>
-                
+                 <h2>  Pseudo Class : </h2>
+                 <div class="pseudu-class">
+                  <h3>User Interaction ব্যবহারকারীর কাজ অনুযায়ী</h3>
+                   <p>:hover	উপরে মাউস নিলে	.btn:hover { color: red; }</p>
+                   <p>:active	ক্লিক করলে	a:active { background: green; }</p>
+                   <p>:focus	ইনপুটে কার্সর গেলে	input:focus { border: 2px solid blue; }</p>
+                   <p>:visited	আগে ক্লিক করা লিংক	a:visited { color: purple; }</p>
+                   <p>:checked	চেকবক্স টিক চিহ্ন দিলে	input:checked { background: yellow; }</p>
+                   <p>:disabled	ইনপুট বন্ধ থাকলে	button:disabled { opacity: 0.5; }</p>
+                 </div>
 
+                 <div class="pseudu-class">
+                  <h3>Structural (অবস্থান ভিত্তিক)</h3>
+                   <p>:first-child	প্রথম child	li:first-child { color: red; }</p>
+                   <p>:last-child	শেষ child	li:last-child { color: blue; }</p>
+                   <p>:nth-child(n)	নির্দিষ্ট child	li:nth-child(3) { font-weight: bold; }</p>
+                   <p>:nth-of-type(n)	নির্দিষ্ট টাইপের child	p:nth-of-type(2)</p>
+                   <p>:not(selector)	বাদ দেওয়া	p:not(.highlight) { color: gray; }</p>
+                   <p>:empty	ফাঁকা উপাদান	div:empty { display: none; }</p>
+                   <p>:only-child	একমাত্র child হলে	p:only-child { color: green; }</p>
+                 </div>
+
+                 <div class="pseudu-class">
+                  <h3>Form-related (ফর্ম ইনপুট ভিত্তিক)</h3>
+                   <p>:enabled	যেটা চালু	input:enabled { background: white; }</p>
+                   <p>:disabled	যেটা বন্ধ	input:disabled { background: gray; }</p>
+                   <p>:required	আবশ্যিক ইনপুট	input:required { border: red; }</p>
+                   <p>:optional	ঐচ্ছিক ইনপুট	input:optional { border: green; }</p>
+                   <p>:valid	সঠিক ইনপুট	input:valid { border: green; }</p>
+                   <p>:invalid	ভুল ইনপুট	input:invalid { border: red; }</p>
+                 </div>
               </div>
-
          </section>
-        <!-- Pseudo-Class Section End -->
+        <!-- Pseudo-Class Section End --> <hr>
 
         <!-- Hover Section Start -->
          <section class="container" id="Hover">
@@ -92,6 +120,77 @@
               </div>
          </section>
         <!-- visited Section End --> <hr>
+
+        <!-- Child Section Start -->
+         <section class="container" id="Child">
+            <h1> Child </h1>
+              <div class="home-container">
+                 <h2 > first-Child : </h2>
+                 <ul class="first">
+                    <li>Number-1</li>
+                    <li>Number-2</li>
+                    <li>Number-3</li>
+                    <li>Number-4</li>
+                    <li>Number-5</li>
+                    <li>Number-6</li>
+                 </ul>
+              </div>
+
+                 <div class="home-container">
+                 <h2> Last-Child : </h2>
+                 <ul class="last">
+                    <li>Number-1</li>
+                    <li>Number-2</li>
+                    <li>Number-3</li>
+                    <li>Number-4</li>
+                    <li>Number-5</li>
+                    <li>Number-6</li>
+                 </ul>
+              </div>
+
+              <div class="home-container">
+                 <h2> 2n= জোর সংখা  : </h2>
+                 <ul class="nn">
+                    <li>Number-1</li>
+                    <li>Number-2</li>
+                    <li>Number-3</li>
+                    <li>Number-4</li>
+                    <li>Number-5</li>
+                    <li>Number-6</li>
+                 </ul>
+              </div>
+
+              <div class="home-container">
+                 <h2> 2n+1= বেজোর সংখা  : </h2>
+                 <ul class="nnn">
+                    <li>Number-1</li>
+                    <li>Number-2</li>
+                    <li>Number-3</li>
+                    <li>Number-4</li>
+                    <li>Number-5</li>
+                    <li>Number-6</li>
+                 </ul>
+              </div>
+
+              <div class="home-container">
+                 <h2> 3n+1= তিনটা পর পর একটা  : </h2>
+                 <ul class="nnnn">
+                    <li>Number-1</li>
+                    <li>Number-2</li>
+                    <li>Number-3</li>
+                    <li>Number-4</li>
+                    <li>Number-5</li>
+                    <li>Number-6</li>
+                    <li>Number-7</li>
+                    <li>Number-8</li>
+                    <li>Number-9</li>
+                    <li>Number-10</li>
+                    <li>Number-11</li>
+                    <li>Number-12</li>
+                 </ul>
+              </div>
+         </section>
+        <!-- Child Section End --> <hr>
 
 
 

@@ -5,26 +5,26 @@ body{
 
 
 
-/*  Home Section Start */
+/*  Position Section Start */
 .container{
      height: 100%;
      margin-inline: auto;
 }
+/*  Position Section End */
 
 
-/*  Home Section End */
+/*  Relative Section Start */
+
+/*  Relative Section End */
 
 
 
-/* Main & Section Css Start */
-main{
-     min-height: 100vh;
-}
 
-main section{
-     min-height: 100vh;
-}
-/* Main & Section Css End */
+/* Common Style Start */
+
+
+
+/* Common Style End */
 
 
 
@@ -33,7 +33,6 @@ footer{
      text-align: center;
 }
 /* Footer End */
-
 
 /*  Header Section Start */
 header{
@@ -54,15 +53,19 @@ header{
      padding: 10px;
      border-radius: 15px;
 }
+
 .header-title a{
      text-decoration: none;
      color: black;
+     
 }
+
 .header-title a:hover{
      text-decoration: underline;
      
      
 }
+
 .header-title:hover{
      background-color: rgb(243, 220, 220);
 }
@@ -80,6 +83,11 @@ ul li a{
      flex-wrap: wrap;
      gap: 10px;
 }
+
+.nav-left-container li{
+     padding: 10px; 
+     margin: 1px 1px;
+}
 .nav-left-container li a{
      color: black;
      font-size: 1.5rem; 
@@ -87,9 +95,20 @@ ul li a{
      padding: 10px;
      border-radius: 10px;
 }
+
 .nav-left-container li a:hover{
      background-color: rgb(221, 196, 161);
      text-decoration: underline;
 }
-
 /*  Header Section End */
+
+/* Main & Section Css Start  */
+main{
+     min-height: 100vh;
+}
+
+main section {
+     min-height: 100vh;
+}
+
+/* Main & Section Css End  */
