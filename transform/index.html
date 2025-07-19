@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="responsive.css"/>
 
-    <title>Copy</title>
+    <title>transform</title>
 </head>
 <body>
     
@@ -33,14 +33,16 @@
         <!-- Navbar Start -->
         <nav class="navbar-container">
             <div class="nav-left">
-                <h1 class="header-title"><a href="#">Maruf Billah</a></h1>
+                <h1 class="header-title"><a href="http://127.0.0.1:5500/transform/index.html">Transform</a></h1>
             </div>
 
             <div class="nav-right">
                 <ul class="nav-left-container">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#One">One</a></li>
-                <li><a href="#Two">Two</a></li>
+                <li><a href="http://127.0.0.1:5500/css/index.html">Css</a></li>
+                <li><a href="#Transform">Transform</a></li>
+                <li><a href="#Scale">Scale</a></li>
+                <li><a href="#rotate">rotate</a></li>
+                <li><a href="#translate">translate</a></li>
             </ul>
             </div>
         </nav>
@@ -50,28 +52,94 @@
     
 
     <main>
-        <!-- Home Section Start -->
-        <section class="container" id="Home">
+        <!-- transform Section Start -->
+        <section class="container" id="Transform">
             <div class="home-container">
-               <h2> List: </h2>
+               <h2> transform: </h2>
                <ol>
-                <li><a href="#One">One</a></li>
-                <li><a href="#">Maruf Billah</a></li>
+                <li><a href="#Scale">Scale</a></li>
                </ol>
-               <!-- <button class="btn-primary">Click</button> -->
-            </div>
-        </section>
-        <!-- Home Section End -->
-
-        <!--  Section Start -->
-        <section class="container" id="One">
-            <div class="home-container">
-               <h2> One : </h2>
                
-               <!-- <button class="btn-primary">Click</button> -->
             </div>
         </section>
-        <!--  Section End -->
+        <!-- transform Section End -->
+
+        <!-- Scale Section Start -->
+        <section class="container" id="Scale">
+            <div class="home-container">
+               <h2> Scale : scale() – এলিমেন্টের আকার বড় বা ছোট করা যায় transform: scale(1.5); </h2>
+
+               <div class="transform-container">
+                <div class="box">
+                    <h2>this is Scale</h2>
+                </div>
+               </div>
+               <div class="transform-container">
+                <div class="box">
+                    <h2>this is Scale</h2>
+                </div>
+               </div>
+               <div class="transform-container">
+                <div class="box">
+                    <h2>this is Scale</h2>
+                </div>
+               </div>
+               
+            </div>
+        </section>
+        <!-- Scale Section End -->
+
+
+        <!-- rotate Section Start -->
+        <section class="container" id="rotate">
+            <div class="home-container">
+               <h2> rotate() – এলিমেন্টকে নির্দিষ্ট কোণে ঘোরানো যায় transform: rotate(45deg); </h2>
+
+               <div class="transform-container">
+                <div class="box-1">
+                    <h2>this is rotate</h2>
+                </div>
+               </div>
+               <div class="transform-container">
+                <div class="box-1">
+                    <h2>this is rotate</h2>
+                </div>
+               </div>
+               <div class="transform-container">
+                <div class="box-1">
+                    <h2>this is rotate</h2>
+                </div>
+               </div>
+               
+            </div>
+        </section>
+        <!-- rotate Section End -->
+
+
+        <!-- translate Section Start -->
+        <section class="container" id="translate">
+            <div class="home-container">
+               <h2> Translate :  translate() – এলিমেন্টকে X বা Y অক্ষ বরাবর সরানো যায় transform: translate(50px, 20px); </h2>
+
+               <div class="translate-container">
+                <div class="box-2">
+                    <h2>this is translate</h2>
+                </div>
+               </div>
+               <div class="translate-container">
+                <div class="box-2">
+                    <h2>this is translate</h2>
+                </div>
+               </div>
+               <div class="translate-container">
+                <div class="box-3">
+                    <h2>this is translate</h2>
+                </div>
+               </div>
+               
+            </div>
+        </section>
+        <!-- translate Section End -->
 
 
 

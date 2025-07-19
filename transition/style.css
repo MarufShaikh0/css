@@ -5,7 +5,7 @@ body{
 
 
 
-/*  transform Section Start */
+/*  Home Section Start */
 
 .home-container li a{
      background-color: tomato;
@@ -22,75 +22,8 @@ body{
      background-color: rgb(236, 79, 52);
 
 }
-/*  transform Section End */
 
-
-/*  Scale Section Start */
-.transform-container{
-     background-color: green;
-     width: 300px;
-     height: 300px;
-     margin-bottom: 10px;
-     border-radius: 10px;
-}
-
-.box{
-     background-color: tomato;
-     width: 300px;
-     height: 300px;
-     border: 1px solid black;
-     transform: scale(0.50);
-     border-radius: 10px;
-     padding: 10px;
-}
-/*  Scale Section End */
-
-
-/*  rotate Section Start */
-
-
-.box-1{
-     background-color: gray;
-     width: 300px;
-     height: 300px;
-     border: 1px solid black;
-     border-radius: 10px;
-     transform: rotate(45deg) scale(0.5);
-     padding: 10px;
-}
-/*  rotate Section End */
-
-
-/*  translate Section Start */
-.translate-container{
-     background-color: green;
-     width: 300px;
-     height: 300px;
-     margin-bottom: 30px;
-    
-     border-radius: 10px;
-}
-.translate-container .box-3:hover{
-     transform: rotate(50deg) scale(0.5);
-
-  
-}
-
-.box-2 ,.box-3{
-     background-color: chocolate;
-     width: 300px;
-     height: 300px;
-     border: 1px solid black;
-     border-radius: 10px;
-     padding: 10px;
-     transform: translate( 25px , 50px) scale(0.5);
-     
-     
-
-}
-/*  translate Section End */
-
-
+/*  Home Section End */
 
 
 
@@ -207,7 +140,6 @@ main{
 main section {
      min-height: 100vh;
      padding-top: 100px;
-     margin-bottom: 100px;
 }
 
 /* Main & Section Css End  */
